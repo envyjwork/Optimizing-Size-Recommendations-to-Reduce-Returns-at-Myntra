@@ -81,6 +81,15 @@ Future enhancements include cross-brand comparison, personalized sizing, and ML-
 - Markdown documentation
 
 ---
+---
+
+## 📁 Repository Guide
+
+- `data/` – Raw sizing and review data used for analysis  
+- `analysis/` – Statistical analysis results and insights  
+- `documents/` – Product Requirements Document (PRD)  
+- `presentation/` – Final presentation deck  
+- `docs/` – Resume bullets and supporting text artifacts
 
 ## 📬 Contact
 
