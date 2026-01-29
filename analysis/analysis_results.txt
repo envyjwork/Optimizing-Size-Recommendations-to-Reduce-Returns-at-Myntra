@@ -1,0 +1,38 @@
+MYNTRA SIZE OPTIMIZATION - ANALYSIS RESULTS
+================================================================================
+
+DATA ANALYZED:
+  Products: 30
+  Size Measurements: 158
+  Reviews: 90
+
+BRAND CONSISTENCY:
+         Brand  Avg_Chest_CM  Std_Dev  CV_Percent  Num_Sizes
+          Puma         104.9     21.3       20.35         21
+        Adidas         103.2     19.4       18.77         12
+      Roadster         101.2     15.6       15.46         31
+           H&M          99.1     14.3       14.39         24
+        Levi’s         109.5     11.3       10.34         24
+    HERE & NOW         103.1     10.1        9.84         19
+         WROGN         113.6      9.6        8.47         10
+Mast & Harbour         109.3      8.3        7.57         13
+    Highlander         111.8      6.6        5.89          4
+
+REVIEW SENTIMENT:
+         Brand  Total_Reviews  True_to_Size  Runs_Small  Runs_Large  Accuracy_%
+    Highlander              3             3           0           0       100.0
+        Levi’s             15            14           0           1        93.3
+          Puma              9             8           0           1        88.9
+         WROGN              6             5           0           1        83.3
+        Adidas              6             5           0           1        83.3
+Mast & Harbour              9             7           0           2        77.8
+           H&M             12             8           2           2        66.7
+      Roadster             18            11           4           3        61.1
+    HERE & NOW             12             7           3           2        58.3
+
+CATEGORY ANALYSIS:
+    Category  Total_Reviews  Accuracy_%
+Thermal Tops              3       100.0
+    T-Shirts             30        80.0
+      Shirts             30        80.0
+        Tops             24        66.7
